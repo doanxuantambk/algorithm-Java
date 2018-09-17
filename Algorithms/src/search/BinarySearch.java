@@ -7,7 +7,9 @@ public class BinarySearch {
     public static void main(String[] args) {
         Integer[] data = {1,3,5,6,8,10,12,23};
         BinarySearch search = new BinarySearch();
+
         System.out.println(search.binarySearch(data,8));
+        System.out.println(search.binarySearch(data,11));
     }
     public int binarySearch(Integer[] data, Integer key){
         int i = 0;
