@@ -49,7 +49,6 @@ public class QuickSort {
         int pivot = minIndex + (maxIndex - minIndex)/2;
         int i = minIndex;
         int j = maxIndex;
-//        System.out.println("Trung vi:"+ data[pivot]);
         while (i<=j){
             while(data[i]<data[pivot]){
                 i++;
